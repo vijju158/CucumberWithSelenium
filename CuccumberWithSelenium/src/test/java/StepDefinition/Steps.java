@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import cucumber.api.PendingException;
 	
 import cucumber.api.java.en.Then;		
@@ -18,8 +19,8 @@ public class Steps {
      @Given("^Open the Chrome and launch the application$")					
     public void open_the_Firefox_and_launch_the_application() throws Throwable							
     {    
-       System.setProperty("webdriver.chrome.driver", "C:\\Users\\E000748\\Downloads\\chromedriver.exe");
-       driver = new ChromeDriver();
+       WebDriverManager.chromedriver().setup();
+       driver=new ChromeDriver();
        driver.manage().window().maximize();	
        driver.get("http://demo.guru99.com/v4");
      }		
