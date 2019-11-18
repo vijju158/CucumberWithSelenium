@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "test-login-functionality;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7079539071,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Chrome and launch the application",
+            "match": {
+              "location": "Steps.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195439796,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Username and Password",
+            "match": {
+              "location": "Steps.user_enters_UserName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1882148797,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Press Login button",
+            "match": {
+              "location": "Steps.Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 359924740,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the browser",
+            "match": {
+              "location": "Steps.Close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login Functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6352057385,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Chrome and launch the application",
+            "match": {
+              "location": "Steps.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159150002,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username and Password",
+            "match": {
+              "location": "Steps.user_enters_UserName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51682849,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Reset the credential",
+            "match": {
+              "location": "Steps.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 240243360,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the browser",
+            "match": {
+              "location": "Steps.Close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "ResetButton.feature"
+  }
+]
